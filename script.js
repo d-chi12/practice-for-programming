@@ -8,3 +8,5 @@ if (age >= 20) {
 else {
     console.log("私は10才未満です");
 }
+
+let hello = 'nice'
