@@ -18,8 +18,8 @@
 //  console.log("私は20代です");
 //}
 
-// if文 swith 練 ------------------------------------------
-const rank = 2;
+// if文 swith defaulte 練 ------------------------------------------
+const rank = 5;
 
 switch (rank) {
   case 1:
@@ -36,6 +36,11 @@ switch (rank) {
   console.log("銅メダルです！");
   break;
   
+  // defaultの処理を追加してください
+  default :
+    console.log("メダルはありません");
+    break;
+
 }
 
 // if分練習 ------------------------------------------
